@@ -1,0 +1,246 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  font-family: monospace;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+html{
+	font-family: 'Gothic A1', sans-serif;
+	background-color: #B39DDB;
+	background-color: black;
+	background-color: #76448A;
+}
+
+::selection {
+				background-color: black;
+				color: white;
+			}
+
+body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300%;
+	height: 300%;
+	overflow: scroll;
+	overflow-x: scroll;
+}
+
+
+.a{
+	position: absolute;
+	word-break: keep-all;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	-ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    overflow: scroll;
+    width:330px; height:150px; padding:10px; background-color:#4A235A;
+}
+
+.a::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.img-div{
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	-ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    width:400px; padding:10px;
+}
+
+#div1{
+	position: absolute;
+	top: 100%;
+	left: 150%;
+}
+
+/*------------연결연결연결연결연결연결연결--------------*/
+#b{right: 100px; bottom: 100px;}
+
+#c{}
+
+#d{}
+
+#e{}
+
+#f{}
+
+#g{}
+
+#h{}
+
+#i{}
+
+#j{}
+
+#k{}
+
+#l{}
+
+#m{}
+
+#n{}
+
+#o{}
+
+#p{}
+
+#q{}
+
+#r{}
+
+#s{}
+
+#t{}
+
+#u{}
+
+#v{}
+
+#w{}
+
+#x{}
+
+#y{}
+
+#z{}
+
+#aa{}
+
+#bb{}
+
+#cc{}
+
+#dd{}
+
+#ee{}
+
+#ff{}
+
+#gg{}
+
+#hh{}
+
+#ii{left: 450px;
+top: 200px;}
+/*------------연결연결연결연결연결연결연결--------------*/
+
