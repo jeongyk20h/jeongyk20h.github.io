@@ -1,0 +1,370 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  font-family: monospace;
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap');*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+KR:wght@200&display=swap');*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');*/
+
+
+html{
+	font-family: 'Gothic A1', sans-serif;
+	/*font-family: 'Noto Serif KR', serif;*/
+/*	font-family: 'Nanum Myeongjo', serif;
+font-family: 'Noto Serif KR', serif;*/
+/*font-family: 'Noto Sans KR', sans-serif;*/
+	background-color: #B39DDB;
+	background-color: black;
+	background-color: #76448A;
+	background-color: #4A235A;
+	background-color:  #280042;
+}
+
+::selection {
+				background-color: black; ;
+				color: white;
+			}
+
+body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1000%;
+	height: 1000%;
+	overflow: scroll;
+	overflow-x: scroll;
+}
+
+
+.a{
+	position: absolute;
+	word-break: keep-all;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	-ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    overflow: scroll;
+    width:330px; height:150px; padding:10px; background-color:#280042;
+    /*background-color: #1D0030;*/ 
+   /* border: 20px solid #4A235A;*/
+}
+
+.a::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.img-div{
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	-ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    width:400px; padding:10px;
+}
+
+#div1{
+	position: absolute;
+	top: 100%;
+	left: 150%;
+}
+
+.background-color{/*background-color: #76448A;*/
+background-color: #4A235A;
+background-color: #280042}
+
+/*------------연결연결연결연결연결연결연결--------------*/
+#b{right: 470px; bottom: 300px; z-index: 999;}
+#bi{right: 20px; bottom: 100px; position: absolute;}
+/*보기 위해서는 사실과 허구 둘 다 반드시 필요했다.*/
+
+#c{left: 1000px; bottom: 700px;z-index: 999;}
+#ci{left: 543px; bottom: 981px; position: absolute;}
+/*이렇게 작은 동물인데도 걱정할 일은 태산이다.*/
+
+#d{right: 3000px; top: 5000px; z-index: 999;}
+#di{right: 2520px; top: 4780px; position: absolute;}
+/*그는 중독의 대상은 중요한 것이 아니며 특정 행동에 대한 중독이나 물질에 대한 중독이나 크게 다를 바 없다고 주장한다. 
+*/
+
+#e{left: 1500px; top:1500px; z-index: 999;}
+#ei{left: 1040px; top:1270px; position: absolute;}
+/*부모님의 집은 혼돈 그 자체였다. 우리는 38년 동안 쌓인 물건들을 일일이 살펴보고, 내버리고*//*, 상자에 담아야 했다. 
+어느 구석을 보나, 어느 표면을 보나 거기에는 수십 년 치의 감정이 숨어 있었다.
+*/
+
+#f{right: 2000px; top: 3000px; z-index: 999;}
+#fi{right: 1530px; top: 2780px; position: absolute;}
+/*내 친구 그레이스는 한때 고립되었지만 지금은 그냥 고독한 사람이다. 
+그러니까 그레이스가 혼자 보내는 시간이 많지만 그것은 두려움에서 나오는 행동이 아니라 
+자신의 필요를 깊이 이해하고 선택한 행동이라는 뜻이다.*/
+
+#g{left: 500px; bottom: 1200px; z-index: 999;}
+#gi{left: 80px; bottom: 1576px; position: absolute;}
+/*croco.jpg
+*/
+
+#h{right:10% ; top:9% ; z-index: 999;}
+#hi{right: 6.2%; top: 6.3%; position: absolute;}
+/*어머니는 실용주의를 당신의 통제 불가능한 슬픔을 막는 힘의 장으로 이용했다. 
+그러나 그것은 기껏해야 부분적인 효과만 있다. 
+어머니는 당신의 삶을 엄격히 통제하는 방법을 통해 우울증에 무릎을 끓지 않을 수 있었으리라.*/
+
+#i{right:5% ; bottom:14% ; z-index: 999 ;}
+#ik{right: 1.3%; bottom: 16.8%; position: absolute;}
+/*한이라는 것은 내가 너무 없는 것이 한이 되어서, 내가 뼈가 빠지게 일해서 땅을 샀다.*/
+
+#j{right:30% ; top:15% ; z-index: 999;}
+#ji{right: 35.5%; top: 11.3%; position: absolute;}
+/*이렇게 또 기일이 다가오고 있다. 
+하지만 이번에 내가 느끼는 아픔은 전과는 다르다. 
+감정들이 더 또렷하다. 
+그 날카로움은 좀 더 고통스럽지만 좀 더 순수하기도 하다.*/
+
+#k{left:20% ; bottom:10% ; z-index: 999;}
+#ki{left: 16.3%; bottom: 12.9%; position: absolute;}
+/*우리가 불에서 볼거리를 더 많이 찾을 수 있다지만, 
+한편 우리는 그 안에 보이는 것을 추구하다가 잃을 것도 훨씬 많다. 
+우리는 집 안의 불이 꺼지지 않게 유지할 수도 있지만, 
+집을 태워버릴 수도 있다.*/
+
+#l{right:17% ; bottom:24% ; z-index: 999;}
+#li{right: 13.3%; bottom: 26.8%; position: absolute;}
+/*이 시기쯤 클로디아는 심리치료를 포기하고 줄리아 캐머런이 "아침의 기록morning pages"이라고 칭한, 
+매일 아침 20분씩 의식의 흐름을 기록하는 훈련을 시작했다.*/
+
+#m{right:20% ; top:8.7% ; z-index: 999;}
+#mi{right: 25.5%; top: 5%; position: absolute;}
+/*나도 이런 식으로 계속 버틸 수 있을까? 
+우리들 중에서 자신의 고난을 견디며 계속 버텨 낼 수 있는 사람은 누구인가? 
+거의 모두이다. 
+우리는 계속 전진한다. */
+
+#n{left: 470px; top:30% ; z-index: 999;}
+#ni{left: 45px; top: 29.7%; position: absolute;}
+/*dinner.jpg*/
+
+#o{right:35%; bottom:25% ; z-index: 999;}
+#oi{right: 31.8%; bottom: 29.5%; position: absolute;}
+/*그대의 장미빛 환영이 차갑게 나를 적십니다.
+그대의 빛들은 차갑고 
+그대의 희미하게 빛나는 문지방 위의 내 주름진 발도 차갑습니다 */
+
+#p{left:26%; top:24% ; z-index: 999;}
+#pi{left: 22.3%; top: 20.2%; position: absolute;}
+/*지금 앙리 B.가 어디에 있을지 궁금하다. 그가 칼을 생각할까?*/
+
+#q{right:25% ; top:25% ; z-index: 999;}
+#qi{right: 21.18%; top: 20.79%; position: absolute;}
+/*"아무리 의욕이 넘쳐도 회복을 앞당길 순 없지요. 
+우리가 언제 죽을지 예측할 수 없는 것처럼 회복도 언제 일어날지 알 수 없는 것이니까요."*/
+
+#r{left: 34%; top:48% ; z-index: 999;}
+#ri{left: 30.4%; top: 44.1%; position: absolute;}
+/*당연하겠지만, 막상 해보니 가장 분류하기 어려운 것들은 가장 간접적이고 사적인 의미만 담긴 물건들이었다.*/
+
+#s{left:15% ; bottom: 20%; z-index: 999;}
+#si{left: 11.65%; bottom: 26.4%; position: absolute;}
+/*sister.jpg*/
+
+#t{left: 35%; top: 13%; z-index: 999;}
+#ti{left: 40.78%; top: 8.9%; position: absolute;}
+/*『리버스 에지』를 출판사 고트(goat)의 첫 단행본으로 소개한다. 
+고트는 종이를 별미로 삼는 염소가 차마 삼키지 못한 마지막 한 권의 책을 소개하는 마음으로, 
+알려지지 않은 책, 
+알려질 가치가 있는 책을 선별하여 펴내자는 취지로 만들어진 출판 브랜드다.*/
+
+#u{right:35% ; top:35% ; z-index: 999;}
+#ui{right: 31.6%; top: 31%; position: absolute;}
+/*우리는 다른 문명의 사람들처럼 위대한 예술 작품을 만들거나 훌륭한 건축물을 지은 적은 없지요.*/
+
+#v{left:50% ; top: 20%; z-index: 999;}
+#vi{left: 46.4%; top: 16.35%; position: absolute;}
+/*아편류는 시간을 지워 버리기 때문에 자신의 생각들이 어디에서 나오는지 기억할 수도 없고, 
+새로운 생각인지 전부터 있던 생각인지 구분도 못하고, 
+생각들이 서로 상호 작용을 일으키도록 만들 수도 없다.*/
+
+#w{right:52% ; bottom:13% ; z-index: 999;}
+#wi{right: 57.7%; bottom: 19.4%; position: absolute;}
+/*sister1.jpg*/
+
+#x{left:14% ; bottom:36% ; z-index: 999;}
+#xi{left: 10.4%; bottom: 38.9%; position: absolute;}
+/*우울증을 '단지 화학적 작용일 뿐'이라고 말하는 사람들이 있다.*/
+
+#y{left:50% ; bottom:30% ; z-index: 999;}
+#yi{left: 55.7%; bottom: 32.5%; position: absolute;}
+/*우리 삶의 생명이 처해있는 것은 사람뿐만 아니라 모든 동식물도 참 살아가기 힘이 듭니다.*/
+
+#z{right:45% ; top:45% ; z-index: 999;}
+#zi{right: 41.45%; top: 44.6%; position: absolute;}
+/*flower.jpg
+*/
+
+#aa{left:50% ; top:8% ; z-index: 999;}
+#aai{left: 46.5%; top: 4.3%; position: absolute;}
+/*우리에겐 통합적인 노력이 필요하다.*/
+
+#bb{right:49% ; bottom:60% ; z-index: 999;}
+#bbi{right: 54.69%; bottom: 64.45%; position: absolute;}
+/*Caroline Knappp.jpg
+*/
+
+#cc{left:8% ; top: 47% ; z-index: 999;}
+#cci{left: 4.2%; top: 43.1%; position: absolute;}
+/*우리는, 우리는, 우리는. 
+나는 그 말을 들으면서 내가 내 인생의 사건을 묘사할 때 복수 대명사를 쓰는 일이 드물다는 사실을 떠올렸다.*/
+
+#dd{right:57% ; top:57% ; z-index: 999;}
+#ddi{right: 53.59%; top: 56.7%; position: absolute;}
+/*city.jpg*/
+
+#ee{left:30% ; top:77% ; z-index: 999;}
+#eei{left: 26.4%; top: 73.35%; position: absolute;}
+/*바르다는 이 영화(5시에서 7시까지의 클레오)의 정서적 추동력은 클레오가 이미지에서 주체로 이동하는 과정이라고 설명했다.*/
+
+#ff{right:73% ; top:66% ; z-index: 999;}
+#ffi{right: 78.59%; top: 62%; position: absolute;}
+/*같은 숏을 반복해 이어붙인 게 아니다. 같은 숏이더라도 다르게 잘랐다.*/
+
+#gg{left:70% ; top:45% ; z-index: 999;}
+#ggi{left: 75.6%; top: 41.3%; position: absolute;}
+/*영향력이라 할 어떤 힘이 당신을 잡아끌기 시작하는 지점이 어딘지는 누구도 결고 알지 못한다.*/
+
+#hh{left:88% ; bottom:63% ; z-index: 999;}
+#hhi{left: 93.6%; bottom: 69.2%; position: absolute;}
+/*이것은 도쿄라는 지루한 거리에서 나고 자라 평범하게 만가지고 만 여자
+(젤다 피츠제럴드처럼)의 사랑과 자본주의를 둘러싼 모험과 일상을 그린 이야기입니다.*/
+
+#ii{left: 470px; top: 200px; z-index: 999;}
+#iii{left: 0px; top: 0px; position: absolute;}
+/*<p>'여자의 목소리만큼 날카로운 소리를 내며 소방차가 지나갔는데 달빛 아래에서 소방대 헬멧이 연노란색으로 빛났다. 
+가끔은 모든 것이 다 같은 분위기에 젖어 있는 것 같다. 이걸 무어라고 정의해야 할지 모르겠다—'</p>
+br><p>...도시와의 접촉 지점에서 우리가 줄여서 '느낌'이라고 부르는 모호한 정서가 솟아난다. 
+가장 흥미로운 것들은 말로 표현하기가 어렵다. 
+그래도 우리는 샛길에 공식 명칭을 부여하듯이 정식으로 이름을 붙여서 신비감을 줄여보려 한다. 
+의미를 축소시키지 않을 단어를 찾으려고 애쓴다. 바로 이게 울프가 작가로서 하려고 했던 일이다.</p>
+<br><p>...형태가 바뀌고 의미가 바뀌는 아직 말할 수 없는 무언가가 도시 산보자를 감싸고 안으로 스며들고 이해할 수 없는 계약으로 묶어놓는다. 
+울프에게는 그것을 표현하는 것이, 늘 알 수 없는 느낌에 알맞는 형태를 찾아내는 것이 평생의 과업이 될 것이었다.</p>*/
+
+
+/*------------연결연결연결연결연결연결연결--------------*/
+
